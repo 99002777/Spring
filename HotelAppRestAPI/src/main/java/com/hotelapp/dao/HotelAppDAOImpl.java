@@ -50,10 +50,10 @@ public class HotelAppDAOImpl implements HotelAppDAO{
 	
 	private List<Hotel> showHotelList(){
 		return Arrays.asList(
-				new Hotel(1,"sree","Karnataka","South"),
-				new Hotel(2,"sasi","Kerala","South"),
-				new Hotel(3,"srinadh","hyderabad","indian"),
-				new Hotel(4,"sairam","TPG","indian")
+				new Hotel(1,"Karnataka","sree","South"),
+				new Hotel(2,"Kerala","sasi","South"),
+				new Hotel(3,"hyderabad","srinadh","indian"),
+				new Hotel(4,"TPG","sairam","indian")
 				);
 	}
 
